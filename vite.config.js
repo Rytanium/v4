@@ -57,6 +57,7 @@ const obf = {
 };
 
 export default defineConfig(({ command }) => {
+    base: '/rytanium/'
   const environment = command === 'serve' ? 'dev' : 'stable';
 
   return {
