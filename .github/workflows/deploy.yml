@@ -33,7 +33,7 @@ jobs:
           package-manager-cache: false
 
       - name: Install Dependencies
-        run: npm install,
+        run: npm install
 
       - name: Build Application
         run: npm run build
